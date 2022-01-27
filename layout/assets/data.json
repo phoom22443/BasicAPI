@@ -7,6 +7,13 @@
     },
 
     {
+        "title":"Widget",
+        "subtitle":"การใช้งาน Widget การจัดเรียง Row column",                                                         
+        "imgurl":"https://cdn.pixabay.com/photo/2016/11/29/08/43/blank-1868502_960_720.jpg",
+        "detaildata":""
+    },
+
+    {
         "title":"Basic dart",
         "subtitle":"พื้นฐานภาษา DART ตัวแปร ฟังก์ชั่น",
         "imgurl":"https://github.com/divyanshub024/awesome-dart-pad/raw/master/art/banner.png",

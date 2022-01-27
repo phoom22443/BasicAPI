@@ -1,6 +1,8 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:layout/Pages/detail.dart';
+import 'package:http/http.dart' as http;
+import 'dart:async';
 
 class homePages extends StatefulWidget {
   //const homePages({ Key? key }) : super(key: key);
@@ -19,23 +21,23 @@ class _homePagesState extends State<homePages> {
       body: Padding(
           padding: const EdgeInsets.all(15),
           child: FutureBuilder(
-            builder: (context, snapshot) {
-              var data = json.decode(snapshot.data.toString());
+            builder: (context, AsyncSnapshot snapshot) {
+              //var data = json.decode(snapshot.data.toString());
               return ListView.builder(
                 itemBuilder: (BuildContext context, int index) {
                   return Padding(
                       padding: const EdgeInsets.all(20),
                       child: myBox(
-                          data[index]['title'],
-                          data[index]['subtitle'],
-                          data[index]['imgurl'],
-                          data[index]['detaildata']));
+                          snapshot.data[index]['title'],
+                          snapshot.data[index]['subtitle'],
+                          snapshot.data[index]['imgurl'],
+                          snapshot.data[index]['detaildata']));
                 },
-                itemCount: data.length,
+                itemCount: snapshot.data.length,
               );
             },
-            future:
-                DefaultAssetBundle.of(context).loadString('assets/data.json'),
+            //future:DefaultAssetBundle.of(context).loadString('assets/data.json'),
+            future: getdata(),
           )),
     );
   }
@@ -91,5 +93,14 @@ class _homePagesState extends State<homePages> {
         ],
       ),
     );
+  }
+
+  Future getdata() async {
+    //https://raw.githubusercontent.com/phoom22443/BasicAPI/main/data.json
+    var url = Uri.https(
+        'raw.githubusercontent.com', '/phoom22443/BasicAPI/main/data.json');
+    var response = await http.get(url);
+    var result = json.decode(response.body);
+    return result;
   }
 }
