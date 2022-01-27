@@ -2,42 +2,42 @@
    {
         "title":"Layout",
         "subtitle":"เพื่อจัดเรียงความสวยงามให้ Widget",
-        "imgurl":"https://cdn.pixabay.com/photo/2017/06/04/08/28/color-patterns-2370497_960_720.jpg",
+        "imgurl":"https://github.com/phoom22443/BasicAPI/blob/main/color-patterns-2370497_960_720.jpg?raw=true",
         "detaildata":"“เลย์เอาท์” (Layout) หรือ การจัดวางผังภาพ นั้นคือการจัดระบบให้องค์ประกอบที่ใช้สื่อสารที่แตกต่างกันอย่างมาก และได้ผลลัพท์ออกมาเป็นงานออกแบบการสื่อสารผ่านการมองเห็นที่ดีนั้น ต้องเสนอข้อมูลเป็นระบบและขับเน้นองค์ประกอบที่สำคัญให้โดดเด่นที่สุด  รูปแบบเลย์เอาท์ (Layout Style) จัดเป็นถือเป็นแม่แบบโครงสร้างการจัดวางที่นิยมใช้กันในการออกแบบร่วมสมัย Roy Paul Nelson (1994) แบ่งรูปแบบเลย์เอาท์โดย ดังนี้\n\n1. การจัดหน้าโดยเน้นภาพประกอบ\n\n2. การจัดภาพโดยเน้นข้อความ\n\n3. การจัดภาพโดยให้ความสัมพันธ์กับภาพเท่าๆ กัน\n\n4. การจัดหน้าโดยเน้นความว่างของพื้นภาพ\n\n5. การจัดหน้าโดยวิธีการจัดแนว"
     },
 
     {
         "title":"Basic dart",
         "subtitle":"พื้นฐานภาษา DART ตัวแปร ฟังก์ชั่น",
-        "imgurl":"https://github.com/divyanshub024/awesome-dart-pad/raw/master/art/banner.png",
+        "imgurl":"https://github.com/phoom22443/BasicAPI/blob/main/banner.png?raw=true",
         "detaildata":""
     },
     
     {
         "title":"json",
         "subtitle":"พื้นฐานการใช้งาน .jon ในการเก็บข้อมูล",
-        "imgurl":"https://cdn.pixabay.com/photo/2016/10/08/00/33/network-1722861_960_720.jpg",
+        "imgurl":"https://github.com/phoom22443/BasicAPI/blob/main/business-5475661_960_720.jpg?raw=true",
         "detaildata":""
     },
 
     {
         "title":"future",
         "subtitle":"การทำงานเมื่อต้องรอการโหลดข้อมูล",
-        "imgurl":"https://cdn.pixabay.com/photo/2020/08/09/14/25/business-5475661_960_720.jpg",
+        "imgurl":"https://github.com/phoom22443/BasicAPI/blob/main/minimal_earth.png?raw=true",
         "detaildata":""
     },
 
     {
         "title":"listview",
         "subtitle":"",
-        "imgurl":"https://cdn.pixabay.com/photo/2017/01/17/22/09/banner-1988223_960_720.png",
+        "imgurl":"https://github.com/phoom22443/BasicAPI/blob/main/banner-1988223_960_720.jpg?raw=true",
         "detaildata":"listview.buuilder"
     },
 
     {
         "title":"API",
         "subtitle":"การดึงข้อมูล ออนไลน์",
-        "imgurl":"https://cdn.pixabay.com/photo/2017/01/17/22/09/banner-1988223_960_720.png",
+        "imgurl":"https://github.com/phoom22443/BasicAPI/blob/main/network-1722861_960_720.jpg?raw=true",
         "detaildata":"listview.buuilder"
     }
 
